@@ -56,6 +56,19 @@ Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Dotnet" | Joi
 Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "WSL" | Join-Path -ChildPath "WSL.ps1");
 Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Docker" | Join-Path -ChildPath "Docker.ps1");
 Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Windows" | Join-Path -ChildPath "Windows.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "DirectoryOpus" | Join-Path -ChildPath "DirectoryOpus.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "BetterDiscord" | Join-Path -ChildPath "BetterDiscord.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Everything" | Join-Path -ChildPath "Everything.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Flow" | Join-Path -ChildPath "Flow.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "GlazeWM" | Join-Path -ChildPath "GlazeWM.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "OpenVPN" | Join-Path -ChildPath "OpenVPN.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Python3" | Join-Path -ChildPath "Python3.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Spotify" | Join-Path -ChildPath "Spotify.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Zebar" | Join-Path -ChildPath "Zebar.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Yazi" | Join-Path -ChildPath "Yazi.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Sysinternals" | Join-Path -ChildPath "Sysinternals.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "StartAllBack" | Join-Path -ChildPath "StartAllBack.ps1");
+Invoke-Expression (Join-Path -Path $DotfilesWorkFolder -ChildPath "Bitwarden" | Join-Path -ChildPath "Bitwarden.ps1");
 
 # Clean
 # Unregister script from RunOnce

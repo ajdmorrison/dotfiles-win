@@ -1,0 +1,1 @@
+choco install -y bitwarden-cli;
